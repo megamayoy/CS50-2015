@@ -1,0 +1,16 @@
+0.It's the longest wors in English. it refers to a lung disease.
+1.it calculates the time of the function's execution.
+2.16 members.
+3.according to calculate,it takes 2 pointers so we should pass variable by reference not by value.
+4. it reads words char by char if it's digit ,we skip until we reach the end of the string.if it's
+a letter ,we check if the letters are longer than maximum length we skip chars until we reach the 
+end of the current string. if the char is null ,we count it as a new word and check if the word 
+misspelled.
+5.because if we read word by word it's gonna be difficult for us to know the length or to know if 
+the word contains numbers.
+6. I don't know.
+7. i uses a trie .it contains a children array of 27 elements and a boolian variable to indicate 
+the end of a word.
+8. it's kind of fast.
+9.  I didn't make any changes.
+10. In the unload function.

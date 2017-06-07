@@ -1,0 +1,46 @@
+0.a bitmap file supports (2 to the power of 32) colors, GIF (256 colors)
+ , PNG and JPEG(2 to the power of 24)colors.
+ 
+1.  GIF supports animation.
+
+2.lossy compression doen't encode all the information of the file so that when the file is
+decompressed, it will not be the exact representation of the original.
+lossless compression encodes all the information of the file 
+so that the compressed file and the original file are identical .
+
+3.JPEG format.
+
+4.the system changes the first character in the file's directory entry to indicate that the file has 
+been removed.the system moves all the file clusters to hard drive's free clusters.
+the actual data in the file doesn't change. 
+
+5.we can use sanitization tools that can remove all the data from disk before it's repurposed.
+
+6.stdint.h is a library that enables us to use integers of different width .like uint8-t
+
+7.using those variables allows us to store data of a fixed size in them and
+ that makes it easier for us to manipulate data like images.
+ 
+8.a BYTE = 1 byte,a DWORD and a LONG = 4 bytes, a WORD = 2 bytes.
+
+9.in ASCII (BM),in hexa (42 4d).
+
+10.bfSize is a member in BITMAPFILEHEADER and represents the size of the bmp file in bytes.
+biSize is also a member in BITMAPINFOHEADER and represents the size of the header structure.
+ 
+11. it means that the file is a top down DIB and its origin is at the upper-left corner.
+
+12.biBitCount field specifies the color depth.
+
+13. it might return NULL if the operating system is out of memory or
+ if we try to open a file and we didn't have proper permissions.
+ 
+14.because we want to process different structures like headers and RGBTRIPLE.
+
+15.3 bytes of padding(zeros) in each scanline.
+
+16. fseek is a function that allows us to move to a certain position in a file.
+
+17.SEEk_CUR is the current position where the file pointer is at
+ 
+18. Rob Bowden.
